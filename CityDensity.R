@@ -5,7 +5,7 @@ regionarea <- read.csv("regionarea.csv")
 
 # Count of Cities per Region
 CountPerRegion <- group_by(population, regions = Region)
-CountPerRegionSummary <-summarise(CountPerRegion, Count = n())
+CountPerRegionSummary <-summarise(CountPerRegion, Count = n_distinct(CityProvince))
 
 # Population Per City
 populationByCity <- group_by(population, CityProvince, Region)
