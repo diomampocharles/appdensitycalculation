@@ -1,8 +1,6 @@
 # appdensitycalculation
 This is for the Data Science Toolbox activity of Group 8.
 
-This is for the Data Science Toolbox activity of Group 8.
-
 To get the city population density:
 
 The team used dplyr package to execute the code.
